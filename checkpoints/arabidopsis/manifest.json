@@ -1,0 +1,7 @@
+{
+  "format_version": 1,
+  "sha256": {
+    "config.json": "0586d1585b27d0fd1b95f85d7b1a9eb8da51cd9c730f2735d6f70de95bf06226",
+    "weights.npz": "1cbecc8b2b327dd522ddc8cf5bbda9cf98d739c615ab9727b946ae253a4e3487"
+  }
+}

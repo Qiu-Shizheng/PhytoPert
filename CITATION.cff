@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the PhytoPert software and specify the release used."
+title: "PhytoPert: conditional prediction of plant perturbation responses"
+type: software
+authors:
+  - name: "PhytoPert contributors"
+version: "1.0.1"
+date-released: "2026-10-30"
+url: "https://github.com/Qiu-Shizheng/PhytoPert"
+repository-code: "https://github.com/Qiu-Shizheng/PhytoPert"
+license: MIT

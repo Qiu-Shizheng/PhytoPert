@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phytopert"
+version = "1.0.1"
+description = "Conditional prediction of plant perturbation responses"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["numpy>=1.24", "scipy>=1.10", "torch>=2.1"]
+
+[project.urls]
+Repository = "https://github.com/Qiu-Shizheng/PhytoPert"
+
+[project.scripts]
+phytopert-predict = "phytopert.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["phytopert*"]

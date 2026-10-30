@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "unit_tests": 9,
+  "real_study_examples": 4,
+  "all_real_examples_match_reference": true,
+  "command_line_matches_python": true,
+  "example_runs_outside_repository": true,
+  "network_required_for_inference": false,
+  "max_reference_difference": 0.0
+}

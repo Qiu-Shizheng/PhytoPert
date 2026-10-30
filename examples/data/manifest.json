@@ -1,0 +1,235 @@
+{
+  "format_version": 1,
+  "description": "Aggregate real-study inputs and reference predictions for reproducible inference.",
+  "selection": "First two distinct query contexts in the fixed evaluation plan at K=3 with all available support cells; no selection by prediction performance.",
+  "examples": [
+    {
+      "name": "rescue_1",
+      "accession": "GSE212230",
+      "species": "Arabidopsis thaliana",
+      "tissue": "root",
+      "query_cell_type": "Atrichoblast",
+      "support_populations": [
+        {
+          "accession": "GSE212230",
+          "cell_type": "Columella",
+          "condition": "pGL2_BRI1_GFP_bri1_T",
+          "control_condition": "bri1_T",
+          "organ": "root",
+          "rep": "1",
+          "sample": "sc_133",
+          "control_sample": "sc_131",
+          "n_cells": 876,
+          "control_cells": 673
+        },
+        {
+          "accession": "GSE212230",
+          "cell_type": "Trichoblast",
+          "condition": "pGL2_BRI1_GFP_bri1_T",
+          "control_condition": "bri1_T",
+          "organ": "root",
+          "rep": "1",
+          "sample": "sc_133",
+          "control_sample": "sc_131",
+          "n_cells": 714,
+          "control_cells": 900
+        },
+        {
+          "accession": "GSE212230",
+          "cell_type": "Xylem",
+          "condition": "pGL2_BRI1_GFP_bri1_T",
+          "control_condition": "bri1_T",
+          "organ": "root",
+          "rep": "1",
+          "sample": "sc_133",
+          "control_sample": "sc_131",
+          "n_cells": 148,
+          "control_cells": 261
+        }
+      ],
+      "number_of_supports": 3,
+      "sampling": "All available support cells",
+      "input": "rescue_1_inputs.npz",
+      "reference": "rescue_1_reference.npz",
+      "reference_max_difference_from_manuscript": 3.681052476167679e-07,
+      "channels": [
+        "mean log1p CP10k response",
+        "expressing-cell fraction response"
+      ]
+    },
+    {
+      "name": "rescue_2",
+      "accession": "GSE212230",
+      "species": "Arabidopsis thaliana",
+      "tissue": "root",
+      "query_cell_type": "Columella",
+      "support_populations": [
+        {
+          "accession": "GSE212230",
+          "cell_type": "Lateral Root Cap",
+          "condition": "pGL2_BRI1_GFP_bri1_T",
+          "control_condition": "bri1_T",
+          "organ": "root",
+          "rep": "1",
+          "sample": "sc_133",
+          "control_sample": "sc_131",
+          "n_cells": 1593,
+          "control_cells": 1761
+        },
+        {
+          "accession": "GSE212230",
+          "cell_type": "Trichoblast",
+          "condition": "pGL2_BRI1_GFP_bri1_T",
+          "control_condition": "bri1_T",
+          "organ": "root",
+          "rep": "1",
+          "sample": "sc_133",
+          "control_sample": "sc_131",
+          "n_cells": 714,
+          "control_cells": 900
+        },
+        {
+          "accession": "GSE212230",
+          "cell_type": "Pericycle",
+          "condition": "pGL2_BRI1_GFP_bri1_T",
+          "control_condition": "bri1_T",
+          "organ": "root",
+          "rep": "1",
+          "sample": "sc_133",
+          "control_sample": "sc_131",
+          "n_cells": 218,
+          "control_cells": 809
+        }
+      ],
+      "number_of_supports": 3,
+      "sampling": "All available support cells",
+      "input": "rescue_2_inputs.npz",
+      "reference": "rescue_2_reference.npz",
+      "reference_max_difference_from_manuscript": 4.76837158203125e-07,
+      "channels": [
+        "mean log1p CP10k response",
+        "expressing-cell fraction response"
+      ]
+    },
+    {
+      "name": "hypoxia_1",
+      "accession": "GSE308672",
+      "species": "Arabidopsis thaliana",
+      "tissue": "root",
+      "query_cell_type": "Atrichoblast",
+      "support_populations": [
+        {
+          "accession": "GSE308672",
+          "cell_type": "Pericycle",
+          "condition": "Hypoxia_4pct_4h",
+          "control_condition": "Normoxia_21pct_4h",
+          "organ": "root",
+          "rep": "1",
+          "sample": "WtHypoxic1",
+          "control_sample": "WtNormoxic1",
+          "n_cells": 1538,
+          "control_cells": 1507
+        },
+        {
+          "accession": "GSE308672",
+          "cell_type": "Xylem",
+          "condition": "Hypoxia_4pct_4h",
+          "control_condition": "Normoxia_21pct_4h",
+          "organ": "root",
+          "rep": "1",
+          "sample": "WtHypoxic1",
+          "control_sample": "WtNormoxic1",
+          "n_cells": 161,
+          "control_cells": 215
+        },
+        {
+          "accession": "GSE308672",
+          "cell_type": "Trichoblast",
+          "condition": "Hypoxia_4pct_4h",
+          "control_condition": "Normoxia_21pct_4h",
+          "organ": "root",
+          "rep": "1",
+          "sample": "WtHypoxic1",
+          "control_sample": "WtNormoxic1",
+          "n_cells": 1010,
+          "control_cells": 814
+        }
+      ],
+      "number_of_supports": 3,
+      "sampling": "All available support cells",
+      "input": "hypoxia_1_inputs.npz",
+      "reference": "hypoxia_1_reference.npz",
+      "reference_max_difference_from_manuscript": 7.301568984985352e-07,
+      "channels": [
+        "mean log1p CP10k response",
+        "expressing-cell fraction response"
+      ]
+    },
+    {
+      "name": "hypoxia_2",
+      "accession": "GSE308672",
+      "species": "Arabidopsis thaliana",
+      "tissue": "root",
+      "query_cell_type": "Columella",
+      "support_populations": [
+        {
+          "accession": "GSE308672",
+          "cell_type": "Cortex",
+          "condition": "Hypoxia_4pct_4h",
+          "control_condition": "Normoxia_21pct_4h",
+          "organ": "root",
+          "rep": "1",
+          "sample": "WtHypoxic1",
+          "control_sample": "WtNormoxic1",
+          "n_cells": 1920,
+          "control_cells": 2156
+        },
+        {
+          "accession": "GSE308672",
+          "cell_type": "Procambium",
+          "condition": "Hypoxia_4pct_4h",
+          "control_condition": "Normoxia_21pct_4h",
+          "organ": "root",
+          "rep": "1",
+          "sample": "WtHypoxic1",
+          "control_sample": "WtNormoxic1",
+          "n_cells": 456,
+          "control_cells": 849
+        },
+        {
+          "accession": "GSE308672",
+          "cell_type": "Endodermis",
+          "condition": "Hypoxia_4pct_4h",
+          "control_condition": "Normoxia_21pct_4h",
+          "organ": "root",
+          "rep": "1",
+          "sample": "WtHypoxic1",
+          "control_sample": "WtNormoxic1",
+          "n_cells": 2877,
+          "control_cells": 4286
+        }
+      ],
+      "number_of_supports": 3,
+      "sampling": "All available support cells",
+      "input": "hypoxia_2_inputs.npz",
+      "reference": "hypoxia_2_reference.npz",
+      "reference_max_difference_from_manuscript": 8.642673492431641e-07,
+      "channels": [
+        "mean log1p CP10k response",
+        "expressing-cell fraction response"
+      ]
+    }
+  ],
+  "sha256": {
+    "hypoxia_1_inputs.npz": "7b7323383dd4446c67ae0d4da33a4ef485a581f2aaf86a8ad4f1b32970532475",
+    "hypoxia_1_reference.npz": "fb88b91629e2be62a1a9d51137708f9dd32ad6fe2075359c3f8e8b5a90b557d2",
+    "hypoxia_2_inputs.npz": "6c99063f68f8bed4dec725415b990188f813dcad87eaef6c6d7b9e5f254dc34e",
+    "hypoxia_2_reference.npz": "3cdf9e70542adfd42a8c39b0eb007b2dea98364114d61f20cc5d29cc475e7881",
+    "rescue_1_inputs.npz": "676b191d9e0e471226615fe5daacf1621702181ac2b2acb00b2a8856666f200f",
+    "rescue_1_reference.npz": "e493fdd444c1663fb811b2e291364eecda173fefe492891540e34d42fe8b8e2e",
+    "rescue_2_inputs.npz": "dae45a5157bd4990270dca70dd06cc00e9acbfd8489a13d3aa77d82bb62c8735",
+    "rescue_2_reference.npz": "bc7e51580ac9a29a793ea03019333ff61e1c6ae8c3d62c90e441bb1bbaddaa3b"
+  },
+  "model_sha256": "1cbecc8b2b327dd522ddc8cf5bbda9cf98d739c615ab9727b946ae253a4e3487",
+  "reference_tolerance": 2e-06
+}

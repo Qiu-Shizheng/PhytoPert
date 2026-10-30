@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "application": "rescue",
+      "supports": 1,
+      "export_max_absolute_difference": 0.0,
+      "sealed_prediction_max_absolute_difference": 4.3213367462158203e-07,
+      "sealed_prediction_tolerance": 2e-06
+    },
+    {
+      "application": "rescue",
+      "supports": 3,
+      "export_max_absolute_difference": 0.0,
+      "sealed_prediction_max_absolute_difference": 3.681052476167679e-07,
+      "sealed_prediction_tolerance": 2e-06
+    },
+    {
+      "application": "rescue",
+      "supports": 3,
+      "export_max_absolute_difference": 0.0,
+      "sealed_prediction_max_absolute_difference": 3.390014171600342e-07,
+      "sealed_prediction_tolerance": 2e-06
+    },
+    {
+      "application": "hypoxia",
+      "supports": 1,
+      "export_max_absolute_difference": 0.0,
+      "sealed_prediction_max_absolute_difference": 5.401670932769775e-07,
+      "sealed_prediction_tolerance": 2e-06
+    },
+    {
+      "application": "hypoxia",
+      "supports": 3,
+      "export_max_absolute_difference": 0.0,
+      "sealed_prediction_max_absolute_difference": 7.301568984985352e-07,
+      "sealed_prediction_tolerance": 2e-06
+    },
+    {
+      "application": "hypoxia",
+      "supports": 3,
+      "export_max_absolute_difference": 0.0,
+      "sealed_prediction_max_absolute_difference": 7.003545761108398e-07,
+      "sealed_prediction_tolerance": 2e-06
+    }
+  ],
+  "parameters": 100820,
+  "model_sha256": "1cbecc8b2b327dd522ddc8cf5bbda9cf98d739c615ab9727b946ae253a4e3487",
+  "format": "numeric NPZ and JSON; no optimizer, paths or executable pickle",
+  "tested_device": "cpu",
+  "torch_version": "2.10.0"
+}
